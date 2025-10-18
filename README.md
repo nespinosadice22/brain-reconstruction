@@ -10,7 +10,7 @@ The goal is to learn normative reconstructions from **control participants** and
   - Constructed site-aware datasets with both **Control** and **ASD** cohorts.  
 - **Models**:  
   - Stacked **autoencoders** built in TensorFlow/Keras.  
-  - Dense layers with `ReLU` activations, BatchNorm and L2 regularization to stabilize training, compact latent space to enforce structure.  
+  - Dense layers with `ReLU` activations, BatchNorm and L2 regularization to stabilize training.   
   - Decoder mirrors encoder & outputs 3-channel reconstructions.  
 - **Evaluation**:  
   - Compare reconstruction MSE between **Control** and **ASD** groups.  
