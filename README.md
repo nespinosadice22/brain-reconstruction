@@ -21,6 +21,14 @@ The goal is to learn normative reconstructions from **control participants** and
 
 
 Within /notebooks, 
-- data_preprocessing.ipynb: Fetches/organizes ABIDE data
-- autoencoders/
-- 
+- data_preprocessing
+  - fetch_data.ipynb: Fetch and organize ABIDE data by sites
+  - data_preprocessing.ipynb: preprocess fmri data
+  - data_preprocessing_mprage.ipynb: preprocessing for mprage dta
+  - data_mprage_visualization.ipynb: visualization/exploration of data
+- autoencoders/ [note, these are in chronological order showing progression throughout internship] 
+  - autoencoder_baselines.ipynb: earliest experiments on 2D slices
+  - stacked_autoencoder_baseline.ipynb: earliest experiments on slices, with minor architecture moification 
+  - autoencoder_mprage.ipynb: focusing on MPRAGE data 
+  - stacked_autoencoder_batchnorm_l2.ipynb: adding batchnorm, L2, tuning models 
+  - stacked_autoencoder_mprage_with_batchnorm.ipynb: adding batchnorm, L2, tuning models for MPRAGE data specifically 
