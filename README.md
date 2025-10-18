@@ -26,7 +26,7 @@ Within notebooks/,
   - data_preprocessing.ipynb: preprocess fmri data
   - data_preprocessing_mprage.ipynb: preprocessing for mprage dta
   - data_mprage_visualization.ipynb: visualization/exploration of data
-- autoencoders/ [note, these are in chronological order showing progression throughout internship] 
+- autoencoders/ [note, these are in chronological order throughout progression of internship] 
   - autoencoder_baselines.ipynb: earliest experiments on 2D slices
   - stacked_autoencoder_baseline.ipynb: earliest experiments on slices, with minor architecture moification 
   - autoencoder_mprage.ipynb: focusing on MPRAGE data 
