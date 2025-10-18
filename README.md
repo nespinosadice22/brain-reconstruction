@@ -20,8 +20,8 @@ The goal is to learn normative reconstructions from **control participants** and
   - Use **LinearSVC** and **CNNS** to run classification tasks.
 
 
-Within /notebooks, 
-- data_preprocessing
+Within notebooks/, 
+- data_preprocessing/
   - fetch_data.ipynb: Fetch and organize ABIDE data by sites
   - data_preprocessing.ipynb: preprocess fmri data
   - data_preprocessing_mprage.ipynb: preprocessing for mprage dta
