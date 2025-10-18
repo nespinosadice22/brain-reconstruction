@@ -1,4 +1,4 @@
-# Understanding Autism from fMRI Brain Scans using Stacked Autoencoders 
+# Understanding Autism from Brain Scans using Stacked Autoencoders 
 
 This repository contains code and experiments exploring **stacked autoencoders** on the **ABIDE neuroimaging dataset**, focusing on **T1 MPRAGE structural MRI**.  
 The goal is to learn normative reconstructions from **control participants** and analyze differences when reconstructing images from individuals with **ASD**.
@@ -27,7 +27,7 @@ Within notebooks/,
   - data_preprocessing.ipynb: preprocess fmri data
   - data_preprocessing_mprage.ipynb: preprocessing for mprage dta
   - data_mprage_visualization.ipynb: visualization/exploration of data
-- autoencoders/ [note, these are in chronological order throughout progression of internship] 
+- models/ [note, these are in chronological order throughout progression of internship] 
   - autoencoder_baselines.ipynb: earliest experiments on 2D slices
   - stacked_autoencoder_baseline.ipynb: earliest experiments on slices, with minor architecture moification 
   - autoencoder_mprage.ipynb: focusing on MPRAGE data 
