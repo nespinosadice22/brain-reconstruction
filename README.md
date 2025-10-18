@@ -8,7 +8,7 @@ The goal is to learn normative reconstructions from **control participants** and
 - **Preprocessing**:  
   - Extracted **axial slices** from NIfTI volumes, resizing to 256x256 with normalization.  
   - Constructed site-aware datasets with both **Control** and **ASD** cohorts.  
-- **Models**:  
+- **Models and Training**:  
   - Stacked **autoencoders** built in TensorFlow/Keras.  
   - Dense layers with ReLU activations, BatchNorm and L2 regularization to stabilize training.   
   - Decoder mirrors encoder & outputs 3-channel reconstructions.
