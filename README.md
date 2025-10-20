@@ -1,4 +1,4 @@
-# Understanding Autism from Brain Scans using Stacked Autoencoders 
+# Classifying and Understanding Autism from Brain Scans using Stacked Autoencoders 
 
 This repository contains code and experiments exploring **stacked autoencoders** on the **ABIDE neuroimaging dataset**, focusing on **T1 MPRAGE structural MRI**.  
 The goal is to learn normative reconstructions from **control participants** and analyze differences when reconstructing images from individuals with **ASD**.
